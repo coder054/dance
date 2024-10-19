@@ -84,8 +84,8 @@ export const pkg = (modules: Builder.ParsedModule[]) => ({
   // Common package.json properties.
   // ==========================================================================
 
-  name: "dancehelix",
-  description: "Fork of Dance with helix keybindings (Unfinished)",
+  name: "dancehelixcolemakdh",
+  description: "Fork of Dance with helix keybindings and remap for ColemakDH",
   version,
   license: "ISC",
 
@@ -96,7 +96,7 @@ export const pkg = (modules: Builder.ParsedModule[]) => ({
 
   repository: {
     type: "git",
-    url: "https://github.com/Silverquark/dance.git",
+    url: "https://github.com/coder054/dance.git",
   },
 
   main: "./out/src/extension.js",
@@ -149,8 +149,8 @@ export const pkg = (modules: Builder.ParsedModule[]) => ({
   // VS Code-specific properties.
   // ==========================================================================
 
-  displayName: "Dance - Helix Alpha",
-  publisher: "silverquark",
+  displayName: "Dance - Helix ColemakDH",
+  publisher: "austincode1",
   categories: ["Keymaps", "Other"],
   readme: "README.md",
   icon: "assets/dance.png",
@@ -742,7 +742,7 @@ export const pkg = (modules: Builder.ParsedModule[]) => ({
                   text: "Swap with the split to the left",
                   command: "workbench.action.moveActiveEditorGroupLeft",
                 },
-                "L": {
+                "": {
                   text: "Swap with the split below",
                   command: "workbench.action.moveActiveEditorGroupDown",
                 },

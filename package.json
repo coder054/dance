@@ -1,6 +1,6 @@
 {
-  "name": "dancehelix",
-  "description": "Fork of Dance with helix keybindings (Unfinished)",
+  "name": "dancehelixcolemakdh",
+  "description": "Fork of Dance with helix keybindings and remap for ColemakDH",
   "version": "0.5.13",
   "license": "ISC",
   "author": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Silverquark/dance.git"
+    "url": "https://github.com/coder054/dance.git"
   },
   "main": "./out/src/extension.js",
   "browser": "./out/web/extension.js",
@@ -54,8 +54,8 @@
     "webpack-cli": "^4.9.2",
     "yaml": "^2.1.1"
   },
-  "displayName": "Dance - Helix Alpha",
-  "publisher": "silverquark",
+  "displayName": "Dance - Helix ColemakDH",
+  "publisher": "austincode1",
   "categories": [
     "Keymaps",
     "Other"
@@ -884,7 +884,7 @@
                   "text": "Swap with the split to the left",
                   "command": "workbench.action.moveActiveEditorGroupLeft"
                 },
-                "L": {
+                "": {
                   "text": "Swap with the split below",
                   "command": "workbench.action.moveActiveEditorGroupDown"
                 },
@@ -928,7 +928,7 @@
                     }
                   ]
                 },
-                "j": {
+                "l": {
                   "text": "scroll down",
                   "command": "editorScroll",
                   "args": [
@@ -939,7 +939,7 @@
                     }
                   ]
                 },
-                "k": {
+                "u": {
                   "text": "scroll up",
                   "command": "editorScroll",
                   "args": [
@@ -4237,7 +4237,7 @@
         "command": "dance.select.left.extend"
       },
       {
-        "key": "K",
+        "key": "H",
         "when": "editorTextFocus && dance.mode == 'visual'",
         "title": "Extend left",
         "command": "dance.select.left.extend"
@@ -4249,7 +4249,7 @@
         "command": "dance.select.left.extend"
       },
       {
-        "key": "K",
+        "key": "H",
         "when": "editorTextFocus && dance.mode == 'normal'",
         "title": "Jump left",
         "command": "dance.select.left.jump"

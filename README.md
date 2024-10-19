@@ -7,7 +7,7 @@ Keybindings with [Helix](https://helix-editor.com) inspired keybindings
 
 Should be mostly usable, but may contain bugs, missing features and differences in behaviour with original helix
 
-[Try it out here](https://marketplace.visualstudio.com/items?itemName=silverquark.dancehelix)
+[Try it out here](https://marketplace.visualstudio.com/items?itemName=coder054.dancehelixcolemakdh)
 
 
 Original README:
