@@ -1,7 +1,7 @@
 {
   "name": "dancehelixcolemakdh",
   "description": "Fork of Dance with helix keybindings and remap for ColemakDH",
-  "version": "0.5.13",
+  "version": "0.5.14",
   "license": "ISC",
   "author": {
     "name": "Leo",
@@ -4207,7 +4207,7 @@
         "command": "dance.select.down.extend"
       },
       {
-        "key": "J",
+        "key": "L",
         "when": "editorTextFocus && dance.mode == 'visual'",
         "title": "Extend down",
         "command": "dance.select.down.extend"
@@ -4219,7 +4219,7 @@
         "command": "dance.select.down.extend"
       },
       {
-        "key": "J",
+        "key": "L",
         "when": "editorTextFocus && dance.mode == 'normal'",
         "title": "Jump down",
         "command": "dance.select.down.jump"
@@ -4237,7 +4237,7 @@
         "command": "dance.select.left.extend"
       },
       {
-        "key": "H",
+        "key": "K",
         "when": "editorTextFocus && dance.mode == 'visual'",
         "title": "Extend left",
         "command": "dance.select.left.extend"
@@ -4249,7 +4249,7 @@
         "command": "dance.select.left.extend"
       },
       {
-        "key": "H",
+        "key": "K",
         "when": "editorTextFocus && dance.mode == 'normal'",
         "title": "Jump left",
         "command": "dance.select.left.jump"
@@ -4327,7 +4327,7 @@
         "command": "dance.select.right.extend"
       },
       {
-        "key": "L",
+        "key": "H",
         "when": "editorTextFocus && dance.mode == 'visual'",
         "title": "Extend right",
         "command": "dance.select.right.extend"
@@ -4339,7 +4339,7 @@
         "command": "dance.select.right.extend"
       },
       {
-        "key": "L",
+        "key": "H",
         "when": "editorTextFocus && dance.mode == 'normal'",
         "title": "Jump right",
         "command": "dance.select.right.jump"
@@ -4381,7 +4381,7 @@
         "command": "dance.select.up.extend"
       },
       {
-        "key": "K",
+        "key": "U",
         "when": "editorTextFocus && dance.mode == 'visual'",
         "title": "Extend up",
         "command": "dance.select.up.extend"
@@ -4393,7 +4393,7 @@
         "command": "dance.select.up.extend"
       },
       {
-        "key": "K",
+        "key": "U",
         "when": "editorTextFocus && dance.mode == 'normal'",
         "title": "Jump up",
         "command": "dance.select.up.jump"
