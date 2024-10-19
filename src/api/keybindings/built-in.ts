@@ -1317,7 +1317,7 @@ const builtinKeybindings = [
     command: "dance.select.left.extend",
   },
   {
-    key: "H",
+    key: "K",
     when: "editorTextFocus && dance.mode == 'visual'",
     title: "Extend left",
     command: "dance.select.left.extend",
@@ -1329,7 +1329,7 @@ const builtinKeybindings = [
     command: "dance.select.left.extend",
   },
   {
-    key: "H",
+    key: "K",
     when: "editorTextFocus && dance.mode == 'normal'",
     title: "Jump left",
     command: "dance.select.left.jump",
