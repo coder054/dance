@@ -1287,7 +1287,7 @@ const builtinKeybindings = [
     command: "dance.select.down.extend",
   },
   {
-    key: "J",
+    key: "L",
     when: "editorTextFocus && dance.mode == 'visual'",
     title: "Extend down",
     command: "dance.select.down.extend",
@@ -1299,7 +1299,7 @@ const builtinKeybindings = [
     command: "dance.select.down.extend",
   },
   {
-    key: "J",
+    key: "L",
     when: "editorTextFocus && dance.mode == 'normal'",
     title: "Jump down",
     command: "dance.select.down.jump",
@@ -1317,7 +1317,7 @@ const builtinKeybindings = [
     command: "dance.select.left.extend",
   },
   {
-    key: "H",
+    key: "K",
     when: "editorTextFocus && dance.mode == 'visual'",
     title: "Extend left",
     command: "dance.select.left.extend",
@@ -1329,7 +1329,7 @@ const builtinKeybindings = [
     command: "dance.select.left.extend",
   },
   {
-    key: "H",
+    key: "K",
     when: "editorTextFocus && dance.mode == 'normal'",
     title: "Jump left",
     command: "dance.select.left.jump",
@@ -1407,7 +1407,7 @@ const builtinKeybindings = [
     command: "dance.select.right.extend",
   },
   {
-    key: "L",
+    key: "H",
     when: "editorTextFocus && dance.mode == 'visual'",
     title: "Extend right",
     command: "dance.select.right.extend",
@@ -1419,7 +1419,7 @@ const builtinKeybindings = [
     command: "dance.select.right.extend",
   },
   {
-    key: "L",
+    key: "H",
     when: "editorTextFocus && dance.mode == 'normal'",
     title: "Jump right",
     command: "dance.select.right.jump",
@@ -1455,7 +1455,7 @@ const builtinKeybindings = [
     command: "dance.select.up.extend",
   },
   {
-    key: "K",
+    key: "U",
     when: "editorTextFocus && dance.mode == 'visual'",
     title: "Extend up",
     command: "dance.select.up.extend",
@@ -1467,7 +1467,7 @@ const builtinKeybindings = [
     command: "dance.select.up.extend",
   },
   {
-    key: "K",
+    key: "U",
     when: "editorTextFocus && dance.mode == 'normal'",
     title: "Jump up",
     command: "dance.select.up.jump",

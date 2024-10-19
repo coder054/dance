@@ -618,11 +618,11 @@ export const pkg = (modules: Builder.ParsedModule[]) => ({
                   text: "to file whose name is selected",
                   command: "dance.selections.open",
                 },
-                "h": {
+                "k": {
                   text: "to line start",
                   command: "dance.select.lineStart",
                 },
-                "l": {
+                "h": {
                   text: "to line end",
                   command: "dance.select.lineEnd",
                 },
@@ -722,35 +722,35 @@ export const pkg = (modules: Builder.ParsedModule[]) => ({
                   text: "Close all other windows (Current window only)",
                   command: "workbench.action.closeOtherEditors",
                 },
-                "h": {
+                "k": {
                   text: "Jump to the split on the left",
                   command: "workbench.action.focusLeftGroup",
                 },
-                "j": {
+                "l": {
                   text: "Jump to the split below",
                   command: "workbench.action.focusBelowGroup",
                 },
-                "k": {
+                "u": {
                   text: "Jump to the split above",
                   command: "workbench.action.focusAboveGroup",
                 },
-                "l": {
+                "h": {
                   text: "Jump to the split to the right",
                   command: "workbench.action.focusRightGroup",
                 },
-                "H": {
+                "K": {
                   text: "Swap with the split to the left",
                   command: "workbench.action.moveActiveEditorGroupLeft",
                 },
-                "J": {
+                "L": {
                   text: "Swap with the split below",
                   command: "workbench.action.moveActiveEditorGroupDown",
                 },
-                "K": {
+                "U": {
                   text: "Swap with the split above",
                   command: "workbench.action.moveActiveEditorGroupUp",
                 },
-                "L": {
+                "H": {
                   text: "Swap with the split to the right",
                   command: "workbench.action.moveActiveEditorGroupRight",
                 },
@@ -784,12 +784,12 @@ export const pkg = (modules: Builder.ParsedModule[]) => ({
                   command: "dance.view.line",
                   args: [{ at: "bottom" }],
                 },
-                "j": {
+                "l": {
                   text: "scroll down",
                   command: "editorScroll",
                   args: [{ to: "down", by: "line", revealCursor: true }],
                 },
-                "k": {
+                "u": {
                   text: "scroll up",
                   command: "editorScroll",
                   args: [{ to: "up", by: "line", revealCursor: true }],
